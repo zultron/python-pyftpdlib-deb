@@ -1,0 +1,24 @@
+Source: python-pyftpdlib
+Section: python
+Priority: optional
+Maintainer: Janos Guljas <janos@janos.in.rs>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 7.0.50), python-support (>= 0.8.4)
+XS-Python-Version: >= 2.5
+Standards-Version: 3.8.4
+Homepage: http://code.google.com/p/pyftpdlib/
+Vcs-Svn: svn://svn.debian.org/python-modules/packages/python-pyftpdlib/trunk
+Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/python-pyftpdlib/trunk/
+
+Package: python-pyftpdlib
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+XB-Python-Version: ${python:Versions}
+Provides: ${python:Provides}
+Description: Python FTP server library
+ Python FTP server library provides a high-level portable interface to
+ easily write asynchronous FTP servers with Python.
+ .
+ pyftpdlib is currently the most complete RFC-959 FTP server
+ implementation available for Python programming language. It is used
+ in projects like Google Chromium and Bazaar.
