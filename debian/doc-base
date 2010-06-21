@@ -1,0 +1,11 @@
+Document: python-pyftpdlib
+Title: Python FTP server library
+Author: Giampaolo Rodola'
+Abstract: This documentation gives an introduction 
+ to Python FTP server library.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python-pyftpdlib/doc/index.html
+Files: /usr/share/doc/python-pyftpdlib/doc/*.html
+ /usr/share/doc/python-pyftpdlib/demo/*
