@@ -5,7 +5,7 @@ The Debian packaging is Copyright 2010, Janos Guljas <janos@janos.in.rs>
 and is licensed under the BSD license. Under Debian systems, you can find
 the text of the BSD license under /usr/share/common-licenses/BSD
 
-It was downloaded from http://code.google.com/p/pyfilesystem/
+It was downloaded from http://code.google.com/p/pyftpdlib/
 
 Upstream Author: Giampaolo Rodola' <g.rodola@gmail.com>
 
