@@ -1,4 +1,4 @@
-python-pyftpdlib (0.6.0-1) UNRELEASED; urgency=low
+python-pyftpdlib (0.6.0-1) unstable; urgency=low
 
   [ Janos Guljas ]
   * New upstream release.
@@ -10,7 +10,7 @@ python-pyftpdlib (0.6.0-1) UNRELEASED; urgency=low
   [ Jan Dittberner ]
   * depend on python (>= 2.6.6-3~) instead of python-all (>= 2.5)
 
- -- Janos Guljas <janos@resenje.org>  Fri, 27 May 2011 17:42:52 +0200
+ -- Janos Guljas <janos@resenje.org>  Fri, 27 May 2011 17:50:09 +0200
 
 python-pyftpdlib (0.5.2-1) unstable; urgency=low
 
