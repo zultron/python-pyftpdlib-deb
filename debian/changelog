@@ -4,8 +4,9 @@ python-pyftpdlib (0.6.0-1) unstable; urgency=low
   * Changed my email address to janos@resenje.org.
   * Bump standards to 3.9.2. No changes needed.
   * Updated debian/copyright to DEP5 format.
+  * Switch to dh_python2.
 
- -- Janos Guljas <janos@resenje.org>  Fri, 27 May 2011 16:01:04 +0200
+ -- Janos Guljas <janos@resenje.org>  Fri, 27 May 2011 17:04:57 +0200
 
 python-pyftpdlib (0.5.2-1) unstable; urgency=low
 
