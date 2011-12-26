@@ -1,3 +1,10 @@
+python-pyftpdlib (0.6.0-2) unstable; urgency=low
+
+  * Add DM-Upload-Allowed control field.
+  * Fix dep5 syntax.
+
+ -- Janos Guljas <janos@resenje.org>  Sun, 11 Dec 2011 15:47:48 +0100
+
 python-pyftpdlib (0.6.0-1) unstable; urgency=low
 
   [ Janos Guljas ]
