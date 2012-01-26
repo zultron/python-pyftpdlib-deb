@@ -1,3 +1,13 @@
+python-pyftpdlib (0.7.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Remove doc directory from debian/docs and debian/doc-base file 
+    as upstream removed documentation.
+  * Update years debian/copyright.
+  * Add debian/local-options.
+
+ -- Janos Guljas <janos@resenje.org>  Thu, 26 Jan 2012 04:02:09 +0100
+
 python-pyftpdlib (0.6.0-2) unstable; urgency=low
 
   * Add DM-Upload-Allowed control field.

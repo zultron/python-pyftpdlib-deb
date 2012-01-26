@@ -4,7 +4,7 @@ Upstream-Contact: Giampaolo Rodola' <g.rodola@gmail.com>
 Source: http://code.google.com/p/pyftpdlib/
 
 Files: *
-Copyright: 2007-2011  Giampaolo Rodola' <g.rodola@gmail.com>
+Copyright: 2007-2012  Giampaolo Rodola' <g.rodola@gmail.com>
 License: MIT
  Permission to use, copy, modify, and distribute this software and
  its documentation for any purpose and without fee is hereby
@@ -24,7 +24,7 @@ License: MIT
  CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 Files: debian/*
-Copyright: 2011 Janos Guljas <janos@resenje.org>
+Copyright: 2011-2012 Janos Guljas <janos@resenje.org>
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are
