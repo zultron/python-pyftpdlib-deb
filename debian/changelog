@@ -1,11 +1,21 @@
-python-pyftpdlib (0.7.0-2) UNRELEASED; urgency=low
+python-pyftpdlib (1.2.0-1) unstable; urgency=low
 
+  [ Jakub Wilk ]
   * Use canonical URIs for Vcs-* fields.
   * Remove DM-Upload-Allowed; it's no longer used by the archive
     software.
   * Run tests only if DEB_BUILD_OPTIONS=nocheck is not set.
 
- -- Jakub Wilk <jwilk@debian.org>  Thu, 13 Jun 2013 13:13:50 +0200
+  [ Janos Guljas ]
+  * New upstream release. (Closes: #717946)
+  * Recommends and Build-Depend (for tests) on python-sendfile.
+  * Raise debhelper compatiblility to 9.
+  * Raise Standards-Version to 3.9.4.
+  * Update copyright years in debian/copyright.
+  * Update Format link in debian/copyright.
+  * Change my email address.
+
+ -- Janos Guljas <janos@debian.org>  Fri, 02 Aug 2013 02:25:28 +0200
 
 python-pyftpdlib (0.7.0-1) unstable; urgency=low
 
