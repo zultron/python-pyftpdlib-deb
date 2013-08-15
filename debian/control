@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Janos Guljas <janos@debian.org>
 Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Build-Depends: debhelper (>= 9), python (>= 2.6.6-3~), python-sendfile
+Build-Depends: debhelper (>= 9), python (>= 2.6.6-3~), python-sendfile >= 2.0.0
 Standards-Version: 3.9.4
 Homepage: http://code.google.com/p/pyftpdlib/
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-pyftpdlib/trunk/
@@ -12,7 +12,7 @@ Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-pyf
 Package: python-pyftpdlib
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Recommends: python-sendfile
+Recommends: python-sendfile >= 2.0.0
 Provides: ${python:Provides}
 Description: Python FTP server library
  Python FTP server library provides a high-level portable interface to
