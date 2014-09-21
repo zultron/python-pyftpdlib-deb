@@ -1,3 +1,11 @@
+python-pyftpdlib (1.2.0-3) UNRELEASED; urgency=low
+
+  * Rebuild for Machinekit
+    - Remove /debian/ from directory structure
+    - Bump release and add to autobuilder
+
+ -- John Morris <john@zultron.com>  Sun, 21 Sep 2014 15:20:30 -0500
+
 python-pyftpdlib (1.2.0-2) UNRELEASED; urgency=low
 
   * Depend and Build-Depend on python-sendfile >= 2.0.0. (Closes: #718576)
