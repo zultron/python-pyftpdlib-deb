@@ -1,0 +1,19 @@
+Library code contains hack to detect old pysendfile v. 1.2.4 libs.
+The tests check for pysendfile separately, for some reason, but don't
+perform the same 1.2.4 detection.  This patch adds that to the unit
+tests, too.
+
+https://github.com/giampaolo/pyftpdlib/blob/ae83aaf8d843ffef0c93bb09ad6464659177e1b6/pyftpdlib/handlers.py#L68-L70
+
+diff -up build/test/test_ftpd.py.unit_tests_sendfile build/test/test_ftpd.py
+--- build/test/test_ftpd.py.unit_tests_sendfile	2013-04-24 16:18:53.000000000 -0500
++++ build/test/test_ftpd.py	2014-09-21 17:30:12.372902703 -0500
+@@ -57,6 +57,8 @@ except ImportError:
+     ssl = None
+ try:
+     import sendfile
++    if hasattr(sendfile, 'has_sf_hdtr'):
++        raise ImportError
+ except ImportError:
+     sendfile = None
+ 
