@@ -3,7 +3,9 @@ python-pyftpdlib (1.2.0-3) UNRELEASED; urgency=low
   * Rebuild for Machinekit
     - Remove /debian/ from directory structure
     - Bump release and add to autobuilder
-  * Patch unit test problem, unit_tests_sendfile.patch
+  * Fix pysendfile problems
+    - Patch unit test problem, unit_tests_sendfile.patch
+    - But ultimately do away with python-sendfile dependencies
 
  -- John Morris <john@zultron.com>  Sun, 21 Sep 2014 15:20:30 -0500
 
