@@ -1,0 +1,5 @@
+# OSC
+/.osc/
+/python-pyftpdlib*.tar.gz
+/python-pyftpdlib*.dsc
+/python-pyftpdlib_*.debian.tar.xz
