@@ -1,3 +1,11 @@
+python-pyftpdlib (1.2.0-4) UNRELEASED; urgency=low
+
+  * Bump release for OBS build
+  * Disable failing unit test
+    - https://github.com/giampaolo/pyftpdlib/issues/260
+
+ -- John Morris <john@zultron.com>  Mon, 12 Jan 2015 14:00:21 -0600
+
 python-pyftpdlib (1.2.0-3) UNRELEASED; urgency=low
 
   * Rebuild for Machinekit
